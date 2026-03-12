@@ -1,0 +1,5 @@
+﻿[general]
+host = "::"
+port = 8080
+root = "/public"
+directory-listing = true

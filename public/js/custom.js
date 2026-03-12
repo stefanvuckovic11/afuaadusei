@@ -20,30 +20,6 @@
     };
     navbarFixed();
     
-    function testimonialSlider(){
-        if ( $('.testimonial_slider').length ){
-            $('.testimonial_slider').owlCarousel({
-                loop:true,
-                margin: 30,
-                items: 2,
-                nav:false,
-                autoplay: true,
-                dots: true,
-                smartSpeed: 1500,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    768: {
-                        items: 2,
-                    },
-                }
-            })
-        }
-    }
-    testimonialSlider();
-    
     //------- Mailchimp js --------//  
 
     function mailChimp(){

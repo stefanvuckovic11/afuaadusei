@@ -1,0 +1,8 @@
+name: afuaadusei
+app_id: da_RMMIrt4UmJ4Y
+owner: stefanvuckovic11
+package: ./wasmer.toml
+volumes:
+- name: admin-content
+  mount: /data
+kind: wasmer.io/App.v0

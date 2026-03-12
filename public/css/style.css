@@ -41,7 +41,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,600,700|Heebo:300,400,700,900|Manrope:400,500,600,700|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -2937,63 +2937,6 @@ h6 {
 /* End Gallery Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Testimonials Area css
-============================================================================================ */
-.testimonials_area {
-  background: #f9f9ff; }
-  .testimonials_area.testi_two {
-    background: #fff; }
-    .testimonials_area.testi_two .testi_inner {
-      margin-top: -20px;
-      margin-bottom: -20px; }
-    .testimonials_area.testi_two .owl-item {
-      padding: 20px 0px; }
-    .testimonials_area.testi_two .testi_item {
-      background: #f9f9ff;
-      border-color: #f9f9ff;
-      transition: all 300ms linear 0s; }
-      .testimonials_area.testi_two .testi_item:hover {
-        background: #fff;
-        border-color: #fff;
-        box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.1); }
-
-.testi_inner .col-lg-3 {
-  vertical-align: middle;
-  align-self: center; }
-
-.test_title h2 {
-  color: #222222;
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  margin-bottom: 12px; }
-.test_title p {
-  margin-bottom: 0px; }
-
-.testi_item {
-  border: 1px solid #eeeeee;
-  border-radius: 10px;
-  background: #fff;
-  padding: 40px 28px; }
-  .testi_item p {
-    font-style: italic; }
-  .testi_item h4 {
-    color: #222222;
-    font-size: 18px;
-    text-transform: uppercase; }
-.testi_item a {
-  color: #ffc000; }
-
-/* Ensure testimonials are visible even if Owl Carousel fails to init */
-.testi_slider.owl-carousel {
-  display: block; }
-.testi_slider.owl-carousel:not(.owl-loaded) .item {
-  display: block;
-  margin-bottom: 30px; }
-
-/* End Testimonials Area css
-============================================================================================ */
 /* CTA Area css
 ============================================================================================ */
 .cta_area {
